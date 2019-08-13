@@ -6,7 +6,8 @@ namespace Snake
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello Sloneczko!");
+            Greetings.Hello("Sloneczko");
+            Greetings.HowAreYou("Sloneczko");
         }
     }
 }
